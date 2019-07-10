@@ -1,14 +1,51 @@
 #main{
-  background-color: white;
   width: 100%;
-  height: 600px;
+  text-align: center;
 }
 
 #div-form{
-  background-color: green;
-  text-align: center;
+  background-color: white;
+  display: inline-block;
+  padding: 3%;
+  text-align: left;
+
 }
 
 body{
   background-color: gray;
+}
+#top-title{
+  font-size: 24px;
+  color: #4C4C4C;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+#middle-title{
+  font-size: 14px;
+  color: #4C4C4C;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+#div-center{
+  text-align: center;
+}
+
+a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #0077C5;
+}
+
+a:active, a:hover{
+  text-decoration: underline;
+}
+
+input{
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+input:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
 }
