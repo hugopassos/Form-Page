@@ -47,6 +47,11 @@ label{
   font-weight: normal;
   padding-bottom: 1%;
 }
+
+#top-right-msg{
+  font-size: 10px;
+}
+
 #terms{
   text-align: center;
   color: #94979c;
