@@ -1,40 +1,3 @@
-#main{
-  width: 100%;
-  text-align: center;
-}
-
-#div-form{
-  background-color: white;
-  display: inline-block;
-  padding: 3%;
-  text-align: left;
-
-}
-
-#img-logo{
-  text-align: center;
-  padding-top: 5%;
-}
-
-body{
-  background-color: #e6e7e8;
-}
-#top-title{
-  font-size: 24px;
-  color: #4C4C4C;
-  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 400;
-}
-#middle-title{
-  font-size: 14px;
-  color: #4C4C4C;
-  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 400;
-}
-#div-center{
-  text-align: center;
-}
-
 a{
   font-size: 13px;
   text-decoration: none;
@@ -45,16 +8,9 @@ a:active, a:hover{
   text-decoration: underline;
 }
 
-input{
-  width: 100%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+body{
+  background-color: #e6e7e8;
 }
-input:focus{
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  border: 1px solid rgba(81, 203, 238, 1);
-}
-
 button{
   background-color: #047bc4;
   color: white;
@@ -67,5 +23,45 @@ button{
   webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
   -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+}
 
+#div-center{
+  text-align: center;
+}
+#div-form{
+  background-color: white;
+  display: inline-block;
+  padding: 3%;
+  text-align: left;
+
+}
+#img-logo{
+  text-align: center;
+  padding-top: 5%;
+}
+input{
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+input:focus{
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+#main{
+  width: 100%;
+  text-align: center;
+}
+#middle-title{
+  font-size: 14px;
+  color: #4C4C4C;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+
+#top-title{
+  font-size: 24px;
+  color: #4C4C4C;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
 }
