@@ -7,7 +7,16 @@ a{
 a:active, a:hover{
   text-decoration: underline;
 }
+span{
+  ont-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #94979c;
+    margin-right: 0.5%;
 
+}
 body{
   background-color: #e6e7e8;
 }
@@ -24,21 +33,6 @@ button{
   -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
 }
-
-#div-center{
-  text-align: center;
-}
-#div-form{
-  background-color: white;
-  display: inline-block;
-  padding: 3%;
-  text-align: left;
-
-}
-#img-logo{
-  text-align: center;
-  padding-top: 5%;
-}
 input{
   width: 100%;
   padding-top: 2%;
@@ -48,6 +42,25 @@ input:focus{
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   border: 1px solid rgba(81, 203, 238, 1);
 }
+
+#div-center{
+  text-align: center;
+
+}
+#div-form{
+  background-color: white;
+  display: inline-block;
+  padding: 2%;
+  text-align: left;
+  border: solid 1px #b7b9bd;
+
+
+}
+#img-logo{
+  text-align: center;
+  padding-top: 5%;
+}
+
 #main{
   width: 100%;
   text-align: center;
@@ -64,4 +77,14 @@ input:focus{
   color: #4C4C4C;
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
+}
+p{
+  text-align: center;
+  color: #94979c;
+  font-style: italic;
+  font-size: 12px;
+}
+
+#test{
+  background: grey;
 }
