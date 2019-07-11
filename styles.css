@@ -37,10 +37,15 @@ input{
   width: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
+  margin-bottom: 5%;
 }
 input:focus{
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   border: 1px solid rgba(81, 203, 238, 1);
+}
+label{
+  font-weight: normal;
+  padding-bottom: 1%;
 }
 #terms{
   text-align: center;
@@ -62,12 +67,13 @@ input:focus{
   text-align: left;
   border: solid 1px #b7b9bd;
   border-bottom: none;
-  width: 360px;
+  width: 380px;
 }
 
 #img-logo{
   text-align: center;
   padding-top: 5%;
+
 }
 
 #main{
@@ -78,7 +84,7 @@ input:focus{
   font-size: 14px;
   color: #4C4C4C;
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 400;
+
 }
 
 #top-title{
@@ -90,10 +96,13 @@ input:focus{
 #captcha{
   background: #dce0e6;
   margin: 0 auto;
-  width: 360px;
+  width: 380px;
   margin-left: 5;
   border: solid 1px #b7b9bd;
   border-top: none;
+  font-size: 9px;
+  padding: 18px;
+  color: #94979c;
 }
 
 #text-agree{
@@ -110,8 +119,17 @@ input:focus{
 
 #legal-msg{
   color: #414245;
+
+}
+#btn-signin{
+  border: 1px solid grey;
+  padding: 7px;
+  margin-top: 10px;
 }
 
 .link-footer{
   color: #414245;
+}
+.a-captcha{
+  font-size: 9px;
 }
