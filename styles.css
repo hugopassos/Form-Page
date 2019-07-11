@@ -42,6 +42,14 @@ input:focus{
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   border: 1px solid rgba(81, 203, 238, 1);
 }
+#terms{
+  text-align: center;
+  color: #94979c;
+  font-style: italic;
+  font-size: 12px;
+  width: 80%;
+  margin: 0 auto;
+}
 
 #div-center{
   text-align: center;
@@ -53,9 +61,10 @@ input:focus{
   padding: 2%;
   text-align: left;
   border: solid 1px #b7b9bd;
-
-
+  border-bottom: none;
+  width: 360px;
 }
+
 #img-logo{
   text-align: center;
   padding-top: 5%;
@@ -78,13 +87,31 @@ input:focus{
   font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
 }
-p{
-  text-align: center;
-  color: #94979c;
-  font-style: italic;
-  font-size: 12px;
+#captcha{
+  background: #dce0e6;
+  margin: 0 auto;
+  width: 360px;
+  margin-left: 5;
+  border: solid 1px #b7b9bd;
+  border-top: none;
 }
 
-#test{
-  background: grey;
+#text-agree{
+  text-align: center;
+}
+
+#footer-terms{
+  text-align: center;
+  width: 53%;
+  margin: 0 auto;
+  font-size: 12px;
+  padding-top: 2%;
+}
+
+#legal-msg{
+  color: #414245;
+}
+
+.link-footer{
+  color: #414245;
 }
