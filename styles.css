@@ -139,7 +139,7 @@ label{
 #btn-signin{
   border: 1px solid grey;
   padding: 7px;
-  padding-top: 0px;
+  margin-top: 9px;
 }
 
 #input-pass{
