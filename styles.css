@@ -38,6 +38,8 @@ input{
   padding-top: 2%;
   padding-bottom: 2%;
   margin-bottom: 5%;
+  border: 1px solid #b7b9bd;
+  border-radius: 2px;
 }
 input:focus{
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
@@ -137,7 +139,11 @@ label{
 #btn-signin{
   border: 1px solid grey;
   padding: 7px;
-  margin-top: 10px;
+  padding-top: 0px;
+}
+
+#input-pass{
+  background: url(images/lock.png) no-repeat scroll 95%;
 }
 
 .link-footer{
