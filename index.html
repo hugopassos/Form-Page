@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Accounts - Sign Up</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <div style="width: 150px; float: right; padding-right: 30px;">
+        <button id="btn-signin" >
+        <i class="glyphicon glyphicon-lock" ></i> Sign In</button>
+      </div>
+      <div style="float: right; width: 150px; padding-top: 7px">
+        <span id="top-right-msg">Already have an Intuit account?<br>
+        <a id="top-right-link" href="https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&namespace_id=50000026&redirect_url=https%3A%2F%2Fmint.intuit.com%2Foverview.event%3Futm_medium%3Ddirect%26cta%3Dhero_sign_up_free_ProspectWeb%26adobe_mc%3DMCMID%253D03844487029517780370935130945224190208%257CMCAID%253D2E931227850331C6-4000118A40000FE3%257CMCORGID%253D969430F0543F253D0A4C98C6%252540AdobeOrg%257CTS%253D1562851482%26ivid%3De8faa9a6-d917-447b-a3a0-27c0a109edf2#">I forgot my User ID or Password</a></span>
+      </div>
+    </div>
+    <div id="img-logo">
+      <img width="110" height="32.175" src="https://static1.squarespace.com/static/5a65685ae45a7c1043de42a9/5bedb093575d1f1bd37fc631/5bedb9dd1ae6cfb26d37601d/1547434638204/intuit.png" alt="intuit">
+      <br>
+      <span>
+    </div>
+    <div style="text-align: center;">
+      <img src="images/mint.png" width="25" height="25" alt="mint">
+      <span> mint</span>
+      <img src="images/qb.png" width="25" height="25" alt="mint">
+      <span> quickbooks</span>
+      <img src="images/check.png" width="22" height="22" alt="mint">
+      <span> turbotax</span><br><br>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="div-form">
+      <form action="" method="POST">
+        <div id="div-center">
+          <label id="top-title">Create an Intuit account</label><br>
+          <label id="middle-title">One account for everything Intuit, including Mint.<br><a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></label>
+          <br><br>
+
+        </div>
+        <label>Email address</label><br>
+        <input type="email" name="email">
+        <br>
+        <br>
+        <label>Phone (recommended)</label>
+        <br>
+        <input type="text" name="telephone">
+        <br>
+        <br>
+        <label>Password</label>
+        <br>
+        <input id="input-pass" type="password" name="password"><br><br>
+        <button type="submit" name="singup" ><i class="glyphicon glyphicon-lock" ></i> Create Account</button>
+      </form>
+      <br><br>
+      <div id="text-agree">
+        <p id="terms">By clicking Create account, you agree to our
+        <a href="https://www.mint.com/terms">Terms</a> and have read and acknowledge our <a href="https://security.intuit.com/index.php/privacy">Privacy Statement.</a></p>
+      </div>
+    </div>
+    <div id="captcha">
+      Invisible reCAPTCHA by Google <a class="a-captcha" href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> and <a class="a-captcha" href="https://policies.google.com/terms?hl=en">Terms of Use</a>.
+    </div>
+  </main>
+
+  <footer>
+    <div id="footer-terms">
+      <span><a href="https://www.intuit.com/company/" class="link-footer">Legal</a> <a href="https://security.intuit.com/index.php/privacy" class="link-footer">Privacy</a> <a href="https://security.intuit.com/" class="link-footer">Security</a></span>
+      <p id="legal-msg">© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.<br>
+        Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
