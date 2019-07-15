@@ -9,4 +9,4 @@ CSS and HTML
 Hector Uzquiano https://github.com/Juakata
 Hugo Passos https://github.com/hugopassos
 
-Follow this link to access the website: https://raw.githack.com/hugopassos/Form-Page/development/index.html
+Follow this link to access the website: https://raw.githack.com/hugopassos/Form-Page/master/index.html
