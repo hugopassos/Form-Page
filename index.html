@@ -5,8 +5,6 @@
   <title>Accounts - Sign Up</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
   <link type="text/css" rel="stylesheet" href="styles.css">
 </head>
 
@@ -24,9 +22,9 @@
       </div>
     </div>
     <div id="img-logo">
-      <img width="110" height="32.175" src="https://static1.squarespace.com/static/5a65685ae45a7c1043de42a9/5bedb093575d1f1bd37fc631/5bedb9dd1ae6cfb26d37601d/1547434638204/intuit.png" alt="intuit">
+      <img width="110" height="32" src="https://static1.squarespace.com/static/5a65685ae45a7c1043de42a9/5bedb093575d1f1bd37fc631/5bedb9dd1ae6cfb26d37601d/1547434638204/intuit.png" alt="intuit">
       <br>
-      <span>
+      <br>
     </div>
     <div style="text-align: center;">
       <img src="images/mint.png" width="25" height="25" alt="mint">
@@ -40,23 +38,23 @@
 
   <main id="main">
     <div id="div-form">
-      <form action="" method="POST">
+      <form method="POST">
         <div id="div-center">
           <label id="top-title">Create an Intuit account</label><br>
           <label id="middle-title">One account for everything Intuit, including Mint.<br><a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account">Learn more</a></label>
           <br><br>
 
         </div>
-        <label>Email address</label><br>
-        <input type="email" name="email">
+        <label for="email">Email address</label><br>
+        <input type="email" name="email" id="email">
         <br>
         <br>
-        <label>Phone (recommended)</label>
+        <label for="telephone">Phone (recommended)</label>
         <br>
-        <input type="text" name="telephone">
+        <input type="tel" name="telephone" id="telephone">
         <br>
         <br>
-        <label>Password</label>
+        <label for="input-pass">Password</label>
         <br>
         <input id="input-pass" type="password" name="password"><br><br>
         <button type="submit" name="singup" ><i class="glyphicon glyphicon-lock" ></i> Create Account</button>
@@ -82,3 +80,5 @@
 </body>
 
 </html>
+
+<!-- comment -->

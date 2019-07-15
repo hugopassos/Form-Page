@@ -1,20 +1,15 @@
-a{
-  font-size: 13px;
-  text-decoration: none;
-  color: #0077C5;
-}
 
 a:active, a:hover{
   text-decoration: underline;
 }
 span{
-  ont-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: left;
-    color: #94979c;
-    margin-right: 0.5%;
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #94979c;
+  margin-right: 0.5%;
 
 }
 body{
@@ -29,8 +24,7 @@ button{
   padding-top: 4%;
   padding-bottom:  4%;
   text-align:center;
-  webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
-  -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
 }
 input{
@@ -111,7 +105,6 @@ label{
   background: #dce0e6;
   margin: 0 auto;
   width: 380px;
-  margin-left: 5;
   border: solid 1px #b7b9bd;
   border-top: none;
   font-size: 9px;
@@ -139,7 +132,7 @@ label{
 #btn-signin{
   border: 1px solid grey;
   padding: 7px;
-  padding-top: 0px;
+  margin-top: 9px;
 }
 
 #input-pass{
@@ -148,6 +141,7 @@ label{
 
 .link-footer{
   color: #414245;
+  font-size: 13px;
 }
 .a-captcha{
   font-size: 9px;
