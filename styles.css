@@ -1,8 +1,3 @@
-a{
-  font-size: 13px;
-  text-decoration: none;
-  color: #0077C5;
-}
 
 a:active, a:hover{
   text-decoration: underline;
