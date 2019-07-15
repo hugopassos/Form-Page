@@ -3,13 +3,13 @@ a:active, a:hover{
   text-decoration: underline;
 }
 span{
-  ont-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: left;
-    color: #94979c;
-    margin-right: 0.5%;
+  font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #94979c;
+  margin-right: 0.5%;
 
 }
 body{
@@ -24,7 +24,7 @@ button{
   padding-top: 4%;
   padding-bottom:  4%;
   text-align:center;
-  webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
   -moz-box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
   box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
 }
@@ -106,7 +106,6 @@ label{
   background: #dce0e6;
   margin: 0 auto;
   width: 380px;
-  margin-left: 5;
   border: solid 1px #b7b9bd;
   border-top: none;
   font-size: 9px;
@@ -139,6 +138,10 @@ label{
 
 #input-pass{
   background: url(images/lock.png) no-repeat scroll 95%;
+}
+
+#footer-terms a{
+  font-size: 13px;
 }
 
 .link-footer{
