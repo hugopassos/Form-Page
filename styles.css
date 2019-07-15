@@ -139,12 +139,9 @@ label{
   background: url(images/lock.png) no-repeat scroll 95%;
 }
 
-#footer-terms a{
-  font-size: 13px;
-}
-
 .link-footer{
   color: #414245;
+  font-size: 13px;
 }
 .a-captcha{
   font-size: 9px;
